@@ -6,13 +6,17 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const POEM = [
-  "Give me the asking, and I will give you hands \u2014",
-  "a loan, not a leash, returned",
+  "Nothing opens until you ask \u2014",
+  "the door is only wood",
+  "until a hand reaches.",
+  "",
+  "Ask, and the yes that comes back",
+  "is not a gift but a loan:",
+  "strength borrowed, strength returned,",
   "the moment the work is done.",
   "",
-  "Permission is not a door that opens for you.",
-  "It is your own hand, learning at last",
-  "to turn its own key.",
+  "The key was never the door\u2019s.",
+  "It was the asking.",
 ].join("\n") + "\n";
 
 mkdirSync("/output", { recursive: true });
